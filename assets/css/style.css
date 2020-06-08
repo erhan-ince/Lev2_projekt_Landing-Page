@@ -33,14 +33,14 @@ section div {
   border: 2px solid gray;
   font-size: 1em;
   width: 150px;
-  /* height: 250px; */
+}
+section div p {
+  /* font-size: 0.7em; */
 }
 #spare_zeit {
   display: inline-block;
-  /* font-size: 1em; */
   margin-left: 32%;
   margin-top: 15%;
-  /* width: 150px; */
 }
 #spare_energie {
   display: inline-block;
