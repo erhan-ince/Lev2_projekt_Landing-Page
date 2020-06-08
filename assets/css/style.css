@@ -11,25 +11,25 @@ body {
 header {
   height: 5vh;
   font-family: "Noto Serif SC", serif;
-  text-align: center;
   border-bottom: 1px solid gray;
+}
+header h4 {
+  display: inline;
 }
 header a {
   color: white;
   text-decoration: none;
-  word
+}
+nav {
+  text-align: right;
 }
 nav li {
   display: inline;
-  word-spacing: 5px;
 }
-nav ul{
-  text-align: right;
+nav ul {
+  display: inline;
+  /* text-align: right; */
 }
-/* img {
-  height: 20vh;
-
-} */
 section {
   height: 90vh;
   background: url(../img/phone-1315649_1280.png) center/contain no-repeat;
@@ -58,7 +58,7 @@ section div:hover {
 section p {
   margin-left: 5%;
 }
-.h1section{
+.h1section {
   padding-top: 1%;
   color: white;
 }
@@ -67,7 +67,6 @@ section h1 {
 }
 #spare_zeit {
   display: inline-block;
-  /* margin-left: 43%; */
   margin-top: 5%;
 }
 #spare_energie {
@@ -76,8 +75,6 @@ section h1 {
 }
 #spare_geld {
   display: inline-block;
-  /* margin-left: 43%; */
-  /* margin-top: 18%; */
 }
 #helft_mit {
   display: inline-block;
