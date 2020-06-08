@@ -29,6 +29,7 @@ section {
 section a {
   text-decoration: none;
   color: black;
+  margin-left: 5%;
 }
 section a:hover {
   background: green;
@@ -40,8 +41,12 @@ section div {
   font-size: 1em;
   width: 150px;
 }
-section div p {
+section p {
   /* font-size: 0.7em; */
+  margin-left: 5%;
+}
+section h1 {
+  margin-left: 5%;
 }
 #spare_zeit {
   display: inline-block;
