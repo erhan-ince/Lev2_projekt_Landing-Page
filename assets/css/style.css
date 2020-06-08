@@ -18,6 +18,7 @@ header {
 section {
   height: 100vh;
   background: url(../img/phone-1315649_1280.png) center/contain no-repeat;
+  margin-left: 5%;
 }
 section a {
   text-decoration: none;
