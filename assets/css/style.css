@@ -12,7 +12,7 @@ header {
   position: relative;
   height: 5vh;
   font-family: "Noto Serif SC", serif;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid lightgray;
 }
 header h4 {
   display: inline;
@@ -209,6 +209,6 @@ ul.social-icons {
   text-decoration: none;
   color: white;
 }
-span {
+/* span {
   color: black;
-}
+} */
