@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+  margin: 0;
+  /* height: 100vh; */
+  width: 100vh;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  background: #322f30;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  height: 10vh;
+  text-align: center;
+  margin-top: 5%;
+}
+section {
+  height: 100vh;
+  background: url(../img/phone-1315649_1280.png) center/contain no-repeat;
+}
+#spare_zeit {
+  display: inline-block;
+  background-color: red;
+  font-size: 1em;
+  margin-left: 30%;
+  margin-top: 20%;
+  width: 150px;
+}
+#spare_energie {
+  display: inline-block;
+  background-color: grey;
+  font-size: 1em;
+  margin-left: 5%;
+  width: 150px;
+}
+#spare_geld {
+  display: inline-block;
+  background-color: red;
+  font-size: 1em;
+  margin-left: 30%;
+  margin-top: 10%;
+  width: 150px;
+}
+#helft_mit {
+  display: inline-block;
+  background-color: grey;
+  font-size: 1em;
+  margin-left: 5%;
+  margin-top: 10%;
+  width: 150px;
+}
+footer {
+  height: 10vh;
+  text-align: center;
+}
+.social_media {
+  /* background: red; */
+  text-align: right;
+  text-decoration: none;
+}
+.footer-social-icons a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-social-icons p > a:hover {
+  color: #d9d9d9;
+  text-decoration: underline;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+.footer-social-icons {
+  width: 350px;
+  display: block;
+  margin: 0 auto;
+}
+.social-icon {
+  color: #fff;
+}
+ul.social-icons {
+  margin-top: 10px;
+}
+.social-icons li {
+  vertical-align: top;
+  display: inline;
+  height: 100px;
+}
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+.fa-facebook {
+  padding: 10px 14px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #322f30;
+}
+.fa-facebook:hover {
+  background-color: #3d5b99;
+}
+.fa-twitter {
+  padding: 10px 12px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #322f30;
+}
+.fa-twitter:hover {
+  background-color: #00aced;
+}
+.fa-rss {
+  padding: 10px 14px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #322f30;
+}
+.fa-rss:hover {
+  background-color: #eb8231;
+}
+.fa-youtube {
+  padding: 10px 14px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #322f30;
+}
+.fa-youtube:hover {
+  background-color: #e64a41;
+}
+.fa-linkedin {
+  padding: 10px 14px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #322f30;
+}
+.fa-linkedin:hover {
+  background-color: #0073a4;
+}
+.fa-github {
+  padding: 10px 14px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #322f30;
+}
+.fa-github:hover {
+  background-color: #5a32a3;
+}
