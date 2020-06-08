@@ -41,6 +41,7 @@ section div {
   width: 150px;
 }
 section div:hover {
+  background: lightgray;
   transform: scale(1.5);
 }
 section p {
@@ -72,6 +73,13 @@ footer {
   height: 10vh;
   text-align: center;
   border-top: 1px solid gray;
+}
+.footer_aeins {
+  text-decoration: none;
+  color: white;
+}
+.footer_aeins:hover {
+  color: green;
 }
 .social_media {
   text-align: right;
