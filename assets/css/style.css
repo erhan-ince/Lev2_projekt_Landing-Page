@@ -14,11 +14,17 @@ header {
   font-family: "Noto Serif SC", serif;
   text-align: center;
   margin-top: 2%;
+  border-bottom: 1px solid gray;
 }
+/* img {
+  height: 20vh;
+
+} */
 section {
-  height: 100vh;
+  height: 90vh;
   background: url(../img/phone-1315649_1280.png) center/contain no-repeat;
   margin-left: 3%;
+  margin-top: 5%;
 }
 section a {
   text-decoration: none;
@@ -44,7 +50,7 @@ section div p {
 }
 #spare_energie {
   display: inline-block;
-  margin-left: 5%;
+  margin-left: 2%;
 }
 #spare_geld {
   display: inline-block;
@@ -53,12 +59,13 @@ section div p {
 }
 #helft_mit {
   display: inline-block;
-  margin-left: 5%;
+  margin-left: 2%;
   margin-top: 10%;
 }
 footer {
   height: 10vh;
   text-align: center;
+  border-top: 1px solid gray;
 }
 .social_media {
   text-align: right;
