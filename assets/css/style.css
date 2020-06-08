@@ -23,7 +23,7 @@ header {
 section {
   height: 90vh;
   background: url(../img/phone-1315649_1280.png) center/contain no-repeat;
-  margin-left: 3%;
+  margin-left: 5%;
   margin-top: 5%;
 }
 section a {
@@ -174,4 +174,8 @@ ul.social-icons {
 }
 .fa-github:hover {
   background-color: #5a32a3;
+}
+.footer_a1 {
+  text-decoration: none;
+  color: white;
 }
