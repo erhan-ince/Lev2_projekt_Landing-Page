@@ -8,12 +8,23 @@ body {
   background: #322f30;
   -webkit-font-smoothing: antialiased;
 }
-
 header {
-  height: 15vh;
+  height: 5vh;
   font-family: "Noto Serif SC", serif;
   text-align: center;
   border-bottom: 1px solid gray;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  word
+}
+nav li {
+  display: inline;
+  word-spacing: 5px;
+}
+nav ul{
+  text-align: right;
 }
 /* img {
   height: 20vh;
@@ -47,13 +58,17 @@ section div:hover {
 section p {
   margin-left: 5%;
 }
+.h1section{
+  padding-top: 1%;
+  color: white;
+}
 section h1 {
   margin-left: 5%;
 }
 #spare_zeit {
   display: inline-block;
   /* margin-left: 43%; */
-  margin-top: 15%;
+  margin-top: 5%;
 }
 #spare_energie {
   display: inline-block;
@@ -62,7 +77,7 @@ section h1 {
 #spare_geld {
   display: inline-block;
   /* margin-left: 43%; */
-  margin-top: 18%;
+  /* margin-top: 18%; */
 }
 #helft_mit {
   display: inline-block;
