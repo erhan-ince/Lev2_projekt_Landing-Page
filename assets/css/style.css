@@ -1,9 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&family=Noto+Serif+SC:wght@500&display=swap");
 body {
   margin: 0;
-  /* height: 100vh; */
-  width: 100vh;
   font-family: "Lato", sans-serif;
   color: #fff;
   background: #322f30;
@@ -12,42 +11,52 @@ body {
 
 header {
   height: 10vh;
+  font-family: "Noto Serif SC", serif;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 section {
   height: 100vh;
   background: url(../img/phone-1315649_1280.png) center/contain no-repeat;
 }
+section a {
+  text-decoration: none;
+  color: black;
+}
+section a:hover {
+  background: green;
+  color: white;
+}
+section div {
+  color: black;
+  border: 2px solid gray;
+  /* height: 250px; */
+}
 #spare_zeit {
   display: inline-block;
-  background-color: red;
   font-size: 1em;
-  margin-left: 30%;
-  margin-top: 20%;
+  margin-left: 32%;
+  margin-top: 15%;
   width: 150px;
 }
 #spare_energie {
   display: inline-block;
-  background-color: grey;
   font-size: 1em;
   margin-left: 5%;
   width: 150px;
 }
 #spare_geld {
   display: inline-block;
-  background-color: red;
   font-size: 1em;
-  margin-left: 30%;
+  margin-left: 32%;
   margin-top: 10%;
   width: 150px;
 }
 #helft_mit {
   display: inline-block;
-  background-color: grey;
   font-size: 1em;
   margin-left: 5%;
-  margin-top: 10%;
+  margin-top: 1%;
   width: 150px;
 }
 footer {
