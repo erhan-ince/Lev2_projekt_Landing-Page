@@ -23,6 +23,7 @@ section {
   height: 90vh;
   background: url(../img/phone-1315649_1280.png) center/contain no-repeat;
   margin-top: 5%;
+  text-align: center;
 }
 section a {
   text-decoration: none;
@@ -39,6 +40,9 @@ section div {
   font-size: 1em;
   width: 150px;
 }
+section div:hover {
+  transform: scale(1.5);
+}
 section p {
   margin-left: 5%;
 }
@@ -47,7 +51,7 @@ section h1 {
 }
 #spare_zeit {
   display: inline-block;
-  margin-left: 43%;
+  /* margin-left: 43%; */
   margin-top: 5%;
 }
 #spare_energie {
@@ -56,7 +60,8 @@ section h1 {
 }
 #spare_geld {
   display: inline-block;
-  margin-left: 43%;
+  /* margin-left: 43%; */
+  /* margin-top: 18%; */
 }
 #helft_mit {
   display: inline-block;
