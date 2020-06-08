@@ -52,7 +52,7 @@ section h1 {
 #spare_zeit {
   display: inline-block;
   /* margin-left: 43%; */
-  margin-top: 5%;
+  margin-top: 15%;
 }
 #spare_energie {
   display: inline-block;
@@ -61,7 +61,7 @@ section h1 {
 #spare_geld {
   display: inline-block;
   /* margin-left: 43%; */
-  /* margin-top: 18%; */
+  margin-top: 18%;
 }
 #helft_mit {
   display: inline-block;
