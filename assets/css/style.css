@@ -1,214 +1,53 @@
-@import url(https://fonts.googleapis.com/css?family=Lato);
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 @import url("https://fonts.googleapis.com/css2?family=Metal+Mania&family=Noto+Serif+SC:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Modern+Antiqua&family=Oldenburg&display=swap");
 body {
   margin: 0;
-  font-family: "Lato", sans-serif;
-  color: #fff;
-  background: #322f30;
-  -webkit-font-smoothing: antialiased;
+  background: linear-gradient(#d9d9d9, darkgray);
+  height: 100vh;
 }
 header {
-  position: relative;
-  height: 5vh;
-  font-family: "Noto Serif SC", serif;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 2px solid black;
 }
-header h4 {
-  display: inline;
-}
-header a {
-  color: white;
-  text-decoration: none;
-}
-nav {
-  position: absolute;
-  top: 0;
-  right: 0;
-  text-align: right;
-}
-nav li {
-  display: inline;
-}
-nav ul {
-  display: inline;
-  /* text-align: right; */
-}
-section {
-  height: 90vh;
-  background: url(../img/phone-1315649_1280.png) center/contain no-repeat;
-  margin-top: 5%;
-  text-align: center;
-}
-section a {
+a {
   text-decoration: none;
   color: black;
-  margin-left: 5%;
+  font-family: "Oldenburg", cursive;
 }
-section a:hover {
-  background: green;
-  color: white;
-}
-section div {
-  color: black;
-  border: 2px solid gray;
-  font-size: 1em;
-  width: 150px;
-}
-section div:hover {
-  background: lightgray;
-  transform: scale(1.5);
-}
-section p {
-  margin-left: 5%;
-}
-.h1section {
-  padding-top: 1%;
-  color: white;
-}
-section h1 {
-  margin-left: 5%;
-}
-#spare_zeit {
-  display: inline-block;
-  margin-top: 5%;
-}
-#spare_energie {
-  display: inline-block;
-  margin-left: 2%;
-}
-#spare_geld {
-  display: inline-block;
-}
-#helft_mit {
-  display: inline-block;
-  margin-left: 2%;
-  margin-top: 5%;
-}
-footer {
-  height: 10vh;
+h1 {
   text-align: center;
-  border-top: 1px solid gray;
+  font-family: "Oldenburg", cursive;
 }
-.footer_aeins {
-  text-decoration: none;
-  color: white;
+h2 {
+  text-align: center;
+  margin-top: 15%;
 }
-.footer_aeins:hover {
-  color: green;
+.circle {
+  margin-top: 20%;
+  border: 2px solid white;
+  border-radius: 50px;
+  width: 15%;
+  height: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  background: darkgray;
 }
-.social_media {
-  text-align: right;
-  text-decoration: none;
+.circlesecond {
+  margin-top: 1%;
+  border: 2px solid white;
+  border-radius: 50px;
+  width: 15%;
+  height: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  background: darkgray;
 }
-.footer-social-icons a {
-  text-decoration: none;
-  color: #fff;
+article {
+  margin-top: 5%;
+  margin-left: 7%;
 }
-.footer-social-icons p > a:hover {
-  color: #d9d9d9;
-  text-decoration: underline;
-}
-ul {
-  padding: 0;
-  list-style: none;
-}
-.footer-social-icons {
-  width: 350px;
-  display: block;
-  margin: 0 auto;
-}
-.social-icon {
-  color: #fff;
-}
-ul.social-icons {
+.picture {
+  text-align: center;
   margin-top: 10px;
+  font-size: 200px;
+  color: red;
 }
-.social-icons li {
-  vertical-align: top;
-  display: inline;
-  height: 100px;
-}
-.social-icons a {
-  color: #fff;
-  text-decoration: none;
-}
-.fa-facebook {
-  padding: 10px 14px;
-  -o-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  background-color: #322f30;
-}
-.fa-facebook:hover {
-  background-color: #3d5b99;
-}
-.fa-twitter {
-  padding: 10px 12px;
-  -o-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  background-color: #322f30;
-}
-.fa-twitter:hover {
-  background-color: #00aced;
-}
-.fa-rss {
-  padding: 10px 14px;
-  -o-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  background-color: #322f30;
-}
-.fa-rss:hover {
-  background-color: #eb8231;
-}
-.fa-youtube {
-  padding: 10px 14px;
-  -o-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  background-color: #322f30;
-}
-.fa-youtube:hover {
-  background-color: #e64a41;
-}
-.fa-linkedin {
-  padding: 10px 14px;
-  -o-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  background-color: #322f30;
-}
-.fa-linkedin:hover {
-  background-color: #0073a4;
-}
-.fa-github {
-  padding: 10px 14px;
-  -o-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  background-color: #322f30;
-}
-.fa-github:hover {
-  background-color: #5a32a3;
-}
-.footer_a1 {
-  text-decoration: none;
-  color: white;
-}
-/* span {
-  color: black;
-} */
